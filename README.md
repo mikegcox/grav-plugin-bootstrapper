@@ -29,7 +29,7 @@ Bootstrapper is **enabled** but **not active** by default.  You can change this 
 
 ```
 enabled: true                   # Enable / Disable this plugin
-always_load: false              # If set to `false` the Theme must have `public $load_bootstrapper_plugin = true;` to add the CSS/JS
+always_load: false              # If set to `false` the Theme must have `public $load_bootstrapper_plugin = true;` to add the mytheme.php file
 mode: production                # Production mode will use the `.min` compressed CSS and JS files
 load_core_css: true             # Load the core `bootstrap.css` CSS file
 load_theme_css: true            # Load the theme `bootstrap-theme.css` CSS file
